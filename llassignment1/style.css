@@ -1,0 +1,106 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+html,body {font:nanumgothic !important;}
+
+h1,h2,h3,h4 { 
+    font-family: 'BBTreeGL'; 
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_nine_@1.1/BBTreeGL.woff') format('woff'); 
+    font-weight: bolder; 
+    font-style: normal; 
+}
+
+p { 
+    font-family: 'BBTreeGL'; 
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_nine_@1.1/BBTreeGL.woff') format('woff'); 
+    font-weight: normal; 
+    font-style: normal; 
+    font-size: 1.15em;
+}
+
+body {
+    background-color: #935d8c;
+    background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+    background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+    background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+    background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+ }
+
+ #header {
+    padding: 5em 5em 1em 5em ;
+    text-align: center;
+    
+}
+h1{
+    color: #ffffff;
+}
+#header h1 {
+    margin: 0 0 0.25em 0;
+}
+
+#header p {
+    font-size: 1.25em;
+    letter-spacing: -0.025em;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+
+#header.alt {
+    padding: 7em 5em 4em 5em ;
+}
+
+#main {
+    background-color: #ffffff;
+    color: #636363;
+    border-radius: 0.25em;
+}
+#main h1, #main h2, #main h3, #main h4, #main h5, #main h6 {
+    color: #636363;
+}
+
+#main > .main {
+    padding: 5em 5em 3em 5em ;
+    border-top: solid 1px #dddddd;
+}
+.spotlight {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
+    align-items: center;
+    margin: 0 0 2em 0;
+}
+.spotlight .content {
+    -moz-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+    .spotlight .content > :last-child {
+        margin-bottom: 0;
+    }
+
+    .spotlight .content header.major {
+        margin: 0 0 2em 0;
+    }
+
+#footer {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+    -moz-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 5em 5em 3em 5em ;
+    width: calc(100% + 2em);
+    margin: 0 0 3em -2em;
+}
+
+    #footer > * {
+        width: calc(50% - 2em);
+        margin-left: 2em;
+    }
